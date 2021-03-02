@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "name": "Profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nama": {
+      "type": "string"
+    },
+    "Bio": {
+      "type": "richtext"
+    }
+  }
+}
